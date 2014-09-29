@@ -21,8 +21,9 @@ After you've created a GitHub account, you're now able to fork the application w
 ```
 git clone https://github.com/[your-account]/TDDTrainingApplication
 ```
-- Create and checkout the branch 'devops' with the following command.
+- Create and checkout the branch 'devops' with the following command and push your branch to remote repository(GitHub)
 ```
-git checkout -b 'devops'
+git checkout -b devops
+git push origin devops
 ```
-
+- Create a directory named 'pipeline' in the application directory
