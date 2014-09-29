@@ -1,4 +1,4 @@
-# Exercise 02, Getting a application to deploy
+# Getting a application to deploy
 
 This exercise describes how to get the application we want to deploy.
 

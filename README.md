@@ -24,5 +24,5 @@ The following exercises are
 
 - [Exercise-01](exercise-01/README.md) (Setting up a Jenkins VM)
 - [Exercise-02](exercise-02/README.md) (Getting a application to deploy)
-- Exercise-03 (Creating a seed job)
+- [Exercise-03](exercise-03/README.md) (Creating a seed job)
 - Exercise-04 (Your first build)
