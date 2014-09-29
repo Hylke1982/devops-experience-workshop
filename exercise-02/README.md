@@ -8,6 +8,7 @@ The following items are required for doing this exercise:
 
 - GIT installed
 - A GitHub account, if you don't have a account already you can create one [here](https://github.com)
+- A SSH key instructions [here](https://help.github.com/articles/generating-ssh-keys)
 
 ## Getting the application
 
