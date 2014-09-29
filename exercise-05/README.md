@@ -20,9 +20,6 @@ view(type: BuildPipelineView) {
     filterExecutors()
     title('Continuous delivery build pipeline view')
     selectedJob('First build job')
-    jobs {
-     name('First build job')
-    }
     alwaysAllowManualTrigger()
     showPipelineParameters()
     refreshFrequency(60)
