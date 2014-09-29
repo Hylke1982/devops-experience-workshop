@@ -35,3 +35,4 @@ git push origin devops
 ```
 - Rerun the seed-job within Jenkins to automaticly configure the build pipeline within Jenkins.
 - Check if the 'First build job' is created within Jenkins
+![First build job](images/first-build-job.png)
