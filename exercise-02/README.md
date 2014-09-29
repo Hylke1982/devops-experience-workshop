@@ -16,4 +16,7 @@ After you've created a GitHub account, you're now able to fork the application w
 - Open your GitHub page.
 - Goto the [TDDTrainingApplication](https://github.com/co:decentric/TDDTrainingApplication) repository on GitHub
 - Fork the application by clicking on the 'fork' button, if you've access to multiple accounts the select the account you want to fork the application to.
-
+- Clone the forked application to your machine using the following command.
+```
+git clone https://github.com/[your-account]/TDDTrainingApplication
+``` 

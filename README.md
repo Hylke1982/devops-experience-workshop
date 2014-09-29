@@ -12,6 +12,12 @@ To participate in this workshop, the following resources are required.
 - Latest vagrant version (tested with 1.6.3, [Download](http://www.vagrantup.com/))
 - Vagrant librarian puppet installed ([Instructions here](https://github.com/mhahn/vagrant-librarian-puppet))
 
+## Required knowledge
+
+To participate in this workshop you should have knowledge about these products:
+
+- GIT
+
 # Exercises
 
 The following exercises are
