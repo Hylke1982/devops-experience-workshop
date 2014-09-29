@@ -26,4 +26,4 @@ The following exercises are
 - [Exercise-02](exercise-02/README.md) (Getting a application to deploy)
 - [Exercise-03](exercise-03/README.md) (Creating a seed job)
 - [Exercise-04](exercise-04/README.md) (Your first build)
-- Exercise-05 (Create the continuous delivery pipeline view)
+- [Exercise-05](exercise-05/README.md) (Create the continuous delivery pipeline view)
