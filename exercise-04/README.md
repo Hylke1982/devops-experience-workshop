@@ -33,3 +33,5 @@ git add .
 git commit -m "Some message"
 git push origin devops
 ```
+- Rerun the seed-job within Jenkins to automaticly configure the build pipeline within Jenkins.
+- Check if the 'First build job' is created within Jenkins
