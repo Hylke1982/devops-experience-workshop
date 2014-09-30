@@ -28,5 +28,6 @@ view(type: BuildPipelineView) {
 - The pipeline will be installed when run job is clicked for the 'seed-job'
 - A pipeline view is added to the jenkins dashboard
 ![Pipeline view on the default dashboard](images/pipeline-view-01.png)
+
 - You can start the execution of the pipeline by clicking run on the pipeline dashboard
 ![Example of the most simple pipeline](images/pipeline-view-02.png)
