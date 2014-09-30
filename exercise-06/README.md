@@ -21,7 +21,7 @@ job {
         git('https://github.com/Hylke1982/TDDTrainingApplication', 'devops')
     }
     steps {
-        maven('test')
+        maven('-f TDDTrainingApplicationCC/pom.xml test')
     }
 }
 ```
