@@ -29,7 +29,7 @@ The following exercises are
 - [Exercise-04](exercise-04/README.md) (Your first build)
 - [Exercise-05](exercise-05/README.md) (Create the continuous delivery pipeline view)
 - [Exercise-06](exercise-06/README.md) (Second build job in the pipeline)
-- Exercise-07 (Run a third job in parallel)
+- [Exercise-07](exercise-07/README.md) (Run a third job in parallel)
 - Exercise-08 (A conditional fourth job)
 - Exercise-09 (Provisioning of a server with configuration)
 - Exercise-10 (Deployment of software to a server) 
