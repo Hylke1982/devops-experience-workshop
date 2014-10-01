@@ -30,4 +30,4 @@ job {
 - Save the file
 - Add, commit and push the changes to the Git repository
 - Run the 'seed-job' again, the 'Fourth build job' should now be available
-![Pipeline view](images/pipeline-view-01)
+![Pipeline view](images/pipeline-view-01.png)
