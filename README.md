@@ -19,6 +19,15 @@ To participate in this workshop you should have knowledge about these products:
 - Basic DevOps/Continuous Delivery knowledge
 - GIT
 
+## Workshop goals
+
+The goals of this workshop are:
+
+- Make the deployment of software part of the development
+- Learn how dev and ops can work together to deploy software
+- How to create a continuous delivery pipeline within Jenkins with open-source tools.
+- How to optimize the continuous delivery pipeline
+
 # Exercises
 
 The following exercises are
