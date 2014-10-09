@@ -22,7 +22,7 @@ job {
         git('https://github.com/Hylke1982/TDDTrainingApplication', 'devops')
     }
     steps {
-        maven('clean package')
+        maven('-f TDDTrainingApplicationCC/pom.xml clean package')
     }
 }
 ```
