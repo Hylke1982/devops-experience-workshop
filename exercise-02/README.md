@@ -27,4 +27,3 @@ git clone https://github.com/[your-account]/TDDTrainingApplication
 git checkout -b devops
 git push origin devops
 ```
-- Create a directory named 'pipeline' in the application directory
