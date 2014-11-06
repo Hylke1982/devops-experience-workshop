@@ -15,7 +15,7 @@ The following items are required for doing this exercise:
 After you've created a GitHub account, you're now able to fork the application we want to deploy. Forking the application on the GitHub website can be done by doing the following steps:
 
 - Open your GitHub page.
-- Goto the [TDDTrainingApplication](https://github.com/co:decentric/TDDTrainingApplication) repository on GitHub
+- Goto the [TDDTrainingApplication](https://github.com/codecentric/TDDTrainingApplication) repository on GitHub
 - Fork the application by clicking on the 'fork' button, if you've access to multiple accounts the select the account you want to fork the application to.
 - On your local machine goto the location you want to checkout the code.
 - Clone the forked application to your machine using the following command.
@@ -27,4 +27,3 @@ git clone https://github.com/[your-account]/TDDTrainingApplication
 git checkout -b devops
 git push origin devops
 ```
-- Create a directory named 'pipeline' in the application directory
