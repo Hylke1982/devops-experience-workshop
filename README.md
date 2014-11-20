@@ -17,7 +17,6 @@ These items should be installed when the Jenkins master and Jenkins slave VMs ar
 - Latest vagrant version (tested with 1.6.3, [Download](http://www.vagrantup.com/))
 - Vagrant librarian puppet installed ([Instructions here](https://github.com/mhahn/vagrant-librarian-puppet))
 
-
 ## Required knowledge
 
 To participate in this workshop you should have knowledge about these products:
