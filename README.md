@@ -9,8 +9,6 @@ To participate in this workshop, the following resources are required.
 
 - Internet connection
 - Latest virtual box version (tested with 4.3.12, [Download](https://www.virtualbox.org/))
-- Latest vagrant version (tested with 1.6.3, [Download](http://www.vagrantup.com/))
-- Vagrant librarian puppet installed ([Instructions here](https://github.com/mhahn/vagrant-librarian-puppet))
 
 ## Required knowledge
 
