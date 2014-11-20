@@ -1,19 +1,19 @@
 # Create a parallel running job
 
-In this exercise a third job is created that runs parallel with the 'Second build job'.
+In this exercise a third job is created that runs parallel with the 'Second build job' and this job has the
 
 ## Steps
 
 The following steps should be taken:
 
-- Copy the 'job-102.groovy' file to  'job-103.groovy' in the 'pipeline' directory
-- And change the name in the file to 'Third build job' and save the file
-- Open the 'job-101.groovy' file in the 'pipeline' directory and change the 'publishers' section into the following.
+- Copy the 'job-002-unittest.groovy' file to  'job-003-createdatabase.groovy' in the 'pipeline' directory
+- And change the name in the file to 'Database script creation' and save the file
+- Open the 'job-001-compilation.groovy' file in the 'pipeline' directory and change the 'publishers' section into the following.
 ```groovy
 publishers {
 	downstreamParameterized {
-            trigger('Second build job', 'SUCCESS', true)
-            trigger('Third build job', 'SUCCESS', true)
+            trigger('Second build job (unit test)', 'SUCCESS', true)
+            trigger('Database script creation', 'SUCCESS', true)
         } 
 }
 ```

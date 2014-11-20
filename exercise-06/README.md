@@ -6,19 +6,19 @@ In this exercises a second build job is added, this job is triggered after the f
 
 The following steps create the second build job:
 
-- Edit the the 'pipeline/job-101.groovy' file add a publisher configuration in the job definition.
+- Edit the the 'pipeline/job-101-compilation.groovy' file add a publisher configuration in the job definition.
 ```groovy
 publishers {
- downstream('Second build job')
+ downstream('Second build job (unit test)')
 }
 ```
-- Create a new file 'job-102.groovy' to the directory 'pipeline' and insert the following job definition in the file.
+- Create a new file 'job-002-unittest.groovy' to the directory 'pipeline' and insert the following job definition in the file.
 ```groovy
 // Replace 'Hylke1982' within the URL with your own GitHub account
 job {
-    name 'Second build job'
+    name 'Second build job (unit test)'
     scm {
-        git('https://github.com/Hylke1982/TDDTrainingApplication', 'devops')
+        git('https://github.com/Hylke1982/TDDTrainingApplication', 'devops-experience-workshop')
     }
     steps {
         maven('-f TDDTrainingApplicationCC/pom.xml test')
@@ -26,6 +26,6 @@ job {
 }
 ```
 - Add, commit and push the changes to the Git repositories.
-- After running the 'seed-job' again the 'Second build job' is now available.
+- After running the 'seed-job' again the 'Second build job (unit test)' is now available.
 - A extra step is added to the continuous delivery pipeline
 ![Extra step in the pipeline added](images/pipeline-view-01.png)
