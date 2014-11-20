@@ -17,7 +17,7 @@ mkdir pipeline
 ```groovy
 // Replace 'Hylke1982' within the URL with your own GitHub account
 job {
-    name 'First build job (Code compilation)'
+    name 'First build job (compilation)'
     scm {
         git('https://github.com/Hylke1982/TDDTrainingApplication', 'devops-experience-workshop')
     }
