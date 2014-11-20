@@ -22,6 +22,7 @@ After you've created a GitHub account, you're now able to fork the application w
 ```sh
 git clone https://github.com/[your-account]/TDDTrainingApplication
 ```
+- Go into the TDDTrainingApplication directory
 - Checkout the branch 'devops-experience-workshop' with the following command and push your branch to remote repository(GitHub)
 ```sh
 git checkout devops-experience-workshop
