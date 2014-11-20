@@ -6,8 +6,20 @@ In this exercise a third job is created that runs parallel with the 'Second buil
 
 The following steps should be taken:
 
-- Copy the 'job-002-unittest.groovy' file to  'job-003-createdatabase.groovy' in the 'pipeline' directory
-- And change the name in the file to 'Database script creation' and save the file
+- Create a new file 'job-003-database-create-sql.groovy'
+- Add the following content into this file
+```groovy
+job {
+    name 'Database script creation'
+    scm {
+        git('https://github.com/Hylke1982/TDDTrainingApplication', 'devops-experience-workshop')
+    }
+    steps {
+        maven('liquibase:updateSQL -pl database')
+    }
+}
+```
+- Git add the file to your repository
 - Open the 'job-001-compilation.groovy' file in the 'pipeline' directory and change the 'publishers' section into the following.
 ```groovy
 publishers {
@@ -19,4 +31,4 @@ publishers {
 ```
 - Save the file
 - Add, commit and push the changes to the Git repository
-- Run the seed-job again, the 'Third build job' should be visible. 
+- Run the seed-job again, the 'Database script creation' job should be visible in the pipeline.
