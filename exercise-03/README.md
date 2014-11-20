@@ -1,6 +1,7 @@
 # Setting up the seed job
 
-The seed job enables you to read your continuous development pipeline configuration from your source code, and always use the latest version of the pipeline.
+The seed job enables you to read your continuous development pipeline configuration from your source code, and always
+use the latest version of the pipeline. (This is the part of the workshop that isn't versioned)
 
 ## Prequisites
 
