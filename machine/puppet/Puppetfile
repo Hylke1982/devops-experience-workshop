@@ -1,0 +1,7 @@
+forge 'http://forge.puppetlabs.com'
+
+mod 'maestrodev/archiva'
+
+mod 'puppetlabs/vcsrepo'
+
+mod 'puppetlabs/apt'

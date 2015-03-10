@@ -1,0 +1,12 @@
+{
+  "username": "admin",
+  "password": "admin123",
+  "confirmPassword": "admin123",
+  "fullName": "the administrator",
+  "email": "some@someemail.nl",
+  "validated": true,
+  "assignedRoles": [],
+  "modified": true,
+  "rememberme": false,
+  "logged": false
+}

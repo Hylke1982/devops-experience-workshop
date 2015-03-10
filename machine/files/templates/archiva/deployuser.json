@@ -1,0 +1,15 @@
+{
+  "username": "deployer",
+  "password": "deploy123",
+  "confirmPassword": "deploy123",
+  "fullName": "the deployer",
+  "email": "some@someemail.nl",
+  "validated": true,
+  "assignedRoles": [
+    "Repository Manager - internal",
+    "Repository Manager - snapshots"
+  ],
+  "modified": true,
+  "rememberme": false,
+  "logged": false
+}
