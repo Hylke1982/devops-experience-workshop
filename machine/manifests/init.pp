@@ -80,9 +80,13 @@ class devopsworkshop::installation::archiva::installation{
 }
 
 class devopsworkshop::installation::archiva::usercreation{
+  wait_for{ '30seconds':
+    seconds => 30,
+    require => Service['archiva']
+  }->
   exec{ "create-admin-user" :
     command => 'curl -H "Content-Type: application/json" -X POST -d @/vagrant/files/templates/archiva/adminuser.json http://localhost:8080/restServices/redbackServices/userService/createAdminUser',
-    path    => ["/usr/bin"]
+    path    => ["/usr/bin"],
   } ->
   exec{ "create-deploy-user" :
     command => 'curl -H "Authorization: Basic YWRtaW46YWRtaW4xMjM=" -H "Content-Type: application/json" -X POST -d @/vagrant/files/templates/archiva/deployuser.json http://localhost:8080/restServices/redbackServices/userService/createUser',

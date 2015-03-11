@@ -1,5 +1,7 @@
 forge 'http://forge.puppetlabs.com'
 
+mod 'basti1302/wait_for'
+
 mod 'maestrodev/archiva'
 
 mod 'puppetlabs/vcsrepo'
