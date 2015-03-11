@@ -40,6 +40,14 @@ class devopsworkshop::installation::cloneworkshop {
     user     => 'devops',
     source   => "https://github.com/Hylke1982/TDDTrainingApplication.git",
     revision => "devops-experience-workshop-quick-baseline"
+  }->
+  file{ 'post update hook':
+    path    => '/home/devops/workspace/TDDTrainingApplication/.git/hooks/post-update',
+    ensure  => 'file',
+    owner   => 'devops',
+    group   => 'devops',
+    mode    => 0744,
+    content => template('/vagrant/templates/git/post-update.erb')
   }
 }
 
