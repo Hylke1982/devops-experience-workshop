@@ -14,7 +14,7 @@ job {
         git('https://github.com/Hylke1982/TDDTrainingApplication', 'devops-experience-workshop')
     }
     steps {
-        maven('-f TDDTrainingApplicationCC/pom.xml compile')
+        maven('-f TDDTrainingApplicationCC/pom.xml compile -DskipTests=true')
     }
     publishers {
         downstream('Second build job (unit test)')
@@ -31,11 +31,15 @@ job {
         git('https://github.com/Hylke1982/TDDTrainingApplication', 'devops-experience-workshop')
     }
     steps {
-        maven('-f TDDTrainingApplicationCC/pom.xml test')
+        maven('-f TDDTrainingApplicationCC/pom.xml test -DskipTests=false')
+    }
+    publishers {
+        archiveJunit('**/target/surefire-reports/*.xml')
     }
 }
 ```
 - Add, commit and push the changes to the Git repositories.
 - After running the 'seed-job' again the 'Second build job (unit test)' is now available.
 - A extra step is added to the continuous delivery pipeline
+- This job will be configured to publish JUnit test reports after running.
 ![Extra step in the pipeline added](images/pipeline-view-01.png)
